@@ -1,9 +1,40 @@
+@charset "utf-8";
+$sunny: #ff902e;
+$moonligh-shadow: #143254;
+
 body {
-  background: #143254;
-  color: #ff902e;
+  margin: 0;
+  background: $moonligh-shadow;
+  color: $sunny;
   font-family: 'Fredericka the Great', cursive;
 
-  .hero {
-    font-size: 50px;
+  .hero.is-info {
+    background: $moonligh-shadow;
+    .title, .subtitle {
+      font-size: 90px;
+      color: $sunny;
+      text-align: center;
+    }
+    .subtitle {
+      font-size: 70px;
+
+    }
+  }
+
+  .navbar {
+    background-color: $sunny;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    .hero.is-info {
+      .title {
+        font-size: 70px;
+      }
+      .subtitle {
+        font-size: 50px;
+      }
+    }
   }
 }

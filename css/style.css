@@ -1,8 +1,23 @@
 body {
+  margin: 0;
   background: #143254;
   color: #ff902e;
   font-family: 'Fredericka the Great', cursive; }
-  body .hero {
-    font-size: 50px; }
+  body .hero.is-info {
+    background: #143254; }
+    body .hero.is-info .title, body .hero.is-info .subtitle {
+      font-size: 90px;
+      color: #ff902e;
+      text-align: center; }
+    body .hero.is-info .subtitle {
+      font-size: 70px; }
+  body .navbar {
+    background-color: #ff902e; }
+
+@media only screen and (max-width: 600px) {
+  body .hero.is-info .title {
+    font-size: 70px; }
+  body .hero.is-info .subtitle {
+    font-size: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
