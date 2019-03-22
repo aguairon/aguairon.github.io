@@ -1,28 +1,44 @@
 @charset "utf-8";
-$sunny: #ff902e;
-$moonligh-shadow: #143254;
+$sunny: #980f0f;
+$moonligh-shadow: #EEEEEE;
+$graphite: #313030;
 
 body {
   margin: 0;
   background: $moonligh-shadow;
-  color: $sunny;
-  font-family: 'Fredericka the Great', cursive;
+  color: $graphite;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 18px;
+  .title, .subtitle {
+    color: $sunny;
+    font-family: 'Fredericka the Great', cursive;
+  }
 
   .hero.is-info {
     background: $moonligh-shadow;
     .title, .subtitle {
       font-size: 90px;
-      color: $sunny;
       text-align: center;
+      color: $sunny;
     }
     .subtitle {
       font-size: 70px;
-
     }
   }
 
+  .container.work {
+    margin-top: 24px;
+  }
+
   .navbar {
+    .bego{
+      font-family: 'Fredericka the Great', cursive;
+    }
     background-color: $sunny;
+    .navbar-item, .navbar-burger.is-active {
+      color: $moonligh-shadow;
+    }
   }
 }
 
@@ -34,6 +50,19 @@ body {
       }
       .subtitle {
         font-size: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    .hero.is-info {
+      .title {
+        font-size: 60px;
+      }
+      .subtitle {
+        font-size: 40px;
       }
     }
   }

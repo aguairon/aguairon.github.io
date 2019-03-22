@@ -1,23 +1,39 @@
 body {
   margin: 0;
-  background: #143254;
-  color: #ff902e;
-  font-family: 'Fredericka the Great', cursive; }
+  background: #EEEEEE;
+  color: #313030;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 18px; }
+  body .title, body .subtitle {
+    color: #980f0f;
+    font-family: 'Fredericka the Great', cursive; }
   body .hero.is-info {
-    background: #143254; }
+    background: #EEEEEE; }
     body .hero.is-info .title, body .hero.is-info .subtitle {
       font-size: 90px;
-      color: #ff902e;
-      text-align: center; }
+      text-align: center;
+      color: #980f0f; }
     body .hero.is-info .subtitle {
       font-size: 70px; }
+  body .container.work {
+    margin-top: 24px; }
   body .navbar {
-    background-color: #ff902e; }
+    background-color: #980f0f; }
+    body .navbar .bego {
+      font-family: 'Fredericka the Great', cursive; }
+    body .navbar .navbar-item, body .navbar .navbar-burger.is-active {
+      color: #EEEEEE; }
 
 @media only screen and (max-width: 600px) {
   body .hero.is-info .title {
     font-size: 70px; }
   body .hero.is-info .subtitle {
     font-size: 50px; } }
+@media only screen and (max-width: 500px) {
+  body .hero.is-info .title {
+    font-size: 60px; }
+  body .hero.is-info .subtitle {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

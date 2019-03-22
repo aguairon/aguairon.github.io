@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,600" rel="stylesheet">
   </head>
   <body>
-    <a name="top"></a>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="#top">
+        <a class="navbar-item bego" href="#top">
           BF
         </a>
 
@@ -24,9 +24,20 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          About
+        </a>
+        <a class="navbar-item" href="#work">
+          Work
+        </a>
+        <a class="navbar-item" href="#work">
+          Contact
+        </a>
+      </div>
     </nav>
     <main>
-      <section class="hero is-info is-fullheight">
+      <section class="hero is-info is-large">
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
@@ -35,6 +46,33 @@
             <h2 class="subtitle">
               Web Developer
             </h2>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container">
+          <h1 class="title">About</h1>
+          <div>I discovered web development via my job as a tester. I loved working alongside developers and learning how websites were built. Learning to write automated tests and see them grow from a side project to an integral part of the development cycle was a great achievement, and made me realise that web development was the path I wanted to take.
+          </div>
+          <br/>
+          <div>I would like to find a role that would challenge me as much as it would teach me and to be part of a small and keen team, where I could continue developing the skills and experience General Assembly has provided me with.
+          </div>
+        </div>
+      </section>
+      <section class="section" id="work">
+        <div class="container">
+          <h1 class="title">Work</h1>
+          <div class="container work">
+            <h4 class="title is-4">Hackathon: Movies website</h4>
+            <div>A two-day, two person collaborative project using React, Bulma for the frontend and Node.js, Express and Request-promise with two public APIs (OMDb and movieglu) for the backend.</div>
+            <br/>
+            <div>Movies website is a simple website that allows users to search for their favourite movies, view their details and find cinemas near them.</div>
+          </div>
+          <div class="container work">
+            <h4 class="title is-4">Othello Game</h4>
+            <div>An individual week long project done with ES6, HTML5 and CSS3.</div>
+            <br/>
+            <div>The game is a version of the reversi game, a strategy game for two players played on a 8 X 8 board. Each player has 32 disks, either red (Desdemona) or black (Othello). The players take turns to place on the board. The player can only place a disk on an empty square that will result on an opponent's piece, or a row of opponent's pieces, to be flanked by the players disks. The surrounded pieces are then swapped for the player's disks. The player that first runs out of disks wins.</div>
           </div>
         </div>
       </section>
