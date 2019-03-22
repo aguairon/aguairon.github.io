@@ -27,11 +27,30 @@ body {
     }
   }
 
+  .container {
+    .title {
+      padding-top: 20px;
+    }
+  }
+
   .container.work {
     margin-top: 24px;
   }
 
   .navbar {
+    .navbar-burger {
+      color: $moonligh-shadow;
+    }
+
+    .navbar-menu.is-active .navbar-item{
+      background-color: $sunny;
+      color: $moonligh-shadow;
+      &:hover{
+        color: $sunny;
+        background-color: $moonligh-shadow;
+      }
+    }
+
     .bego{
       font-family: 'Fredericka the Great', cursive;
     }
@@ -39,6 +58,22 @@ body {
     .navbar-item, .navbar-burger.is-active {
       color: $moonligh-shadow;
     }
+
+    .navbar-menu {
+      margin-left: auto;
+    }
+
+    .navbar-menu .navbar-item {
+      &:hover{
+        color: $sunny;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: $sunny;
   }
 }
 

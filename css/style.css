@@ -16,15 +16,32 @@ body {
       color: #980f0f; }
     body .hero.is-info .subtitle {
       font-size: 70px; }
+  body .container .title {
+    padding-top: 20px; }
   body .container.work {
     margin-top: 24px; }
   body .navbar {
     background-color: #980f0f; }
+    body .navbar .navbar-burger {
+      color: #EEEEEE; }
+    body .navbar .navbar-menu.is-active .navbar-item {
+      background-color: #980f0f;
+      color: #EEEEEE; }
+      body .navbar .navbar-menu.is-active .navbar-item:hover {
+        color: #980f0f;
+        background-color: #EEEEEE; }
     body .navbar .bego {
       font-family: 'Fredericka the Great', cursive; }
     body .navbar .navbar-item, body .navbar .navbar-burger.is-active {
       color: #EEEEEE; }
+    body .navbar .navbar-menu {
+      margin-left: auto; }
+    body .navbar .navbar-menu .navbar-item:hover {
+      color: #980f0f; }
 
+@media only screen and (max-width: 1087px) {
+  .navbar-menu {
+    background-color: #980f0f; } }
 @media only screen and (max-width: 600px) {
   body .hero.is-info .title {
     font-size: 70px; }
