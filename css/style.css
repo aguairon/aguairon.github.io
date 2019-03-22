@@ -35,7 +35,7 @@ body {
     body .navbar .navbar-item, body .navbar .navbar-burger.is-active {
       color: #EEEEEE; }
     body .navbar .navbar-menu {
-      margin-left: auto; }
+      justify-content: flex-end; }
     body .navbar .navbar-menu .navbar-item:hover {
       color: #980f0f; }
 
