@@ -30,6 +30,10 @@ body {
 
   .container {
     max-width: 800px;
+    figure {
+      margin-bottom: 15px;
+      border: 8px solid $graphite;
+    }
     .title {
       padding-top: 20px;
     }

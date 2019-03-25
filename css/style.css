@@ -18,6 +18,9 @@ body {
       font-size: 70px; }
   body .container {
     max-width: 800px; }
+    body .container figure {
+      margin-bottom: 15px;
+      border: 8px solid #313030; }
     body .container .title {
       padding-top: 20px; }
     body .container .icons {
