@@ -38,7 +38,6 @@ body {
       display: flex;
       margin-top: 10px;
       font-size: 11px;
-      text-align: center;
       img {
         padding: 15px;
       }
@@ -46,7 +45,11 @@ body {
         width: 60px;
       }
     }
+    .column {
+      text-align: center;
+    }
   }
+
   .container.name {
     max-width: 960px;
   }
@@ -56,11 +59,8 @@ body {
     margin-top: 24px;
   }
 
-  .container.contact {
-    .column {
-      text-align: center;
-    }
-  }
+
+
 
   .button {
     .fa-envelope {

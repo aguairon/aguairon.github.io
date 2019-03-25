@@ -24,18 +24,17 @@ body {
       padding: 2px;
       display: flex;
       margin-top: 10px;
-      font-size: 11px;
-      text-align: center; }
+      font-size: 11px; }
       body .container .icons img {
         padding: 15px; }
       body .container .icons .icon {
         width: 60px; }
+    body .container .column {
+      text-align: center; }
   body .container.name {
     max-width: 960px; }
   body .container.work {
     margin-top: 24px; }
-  body .container.contact .column {
-    text-align: center; }
   body .button {
     color: #980f0f;
     background-color: #EEEEEE;
