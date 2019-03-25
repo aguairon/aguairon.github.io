@@ -3,16 +3,17 @@ $sunny: #980f0f;
 $moonligh-shadow: #EEEEEE;
 $graphite: #313030;
 
+
 body {
   margin: 0;
   background: $moonligh-shadow;
   color: $graphite;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   .title, .subtitle {
     color: $sunny;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .hero.is-info {
@@ -28,15 +29,55 @@ body {
   }
 
   .container {
+    max-width: 800px;
     .title {
       padding-top: 20px;
     }
+    .icons {
+      padding: 2px;
+      display: flex;
+      margin-top: 10px;
+      font-size: 11px;
+      text-align: center;
+      img {
+        padding: 15px;
+      }
+      .icon {
+        width: 60px;
+      }
+    }
   }
+  .container.name {
+    max-width: 960px;
+  }
+
 
   .container.work {
     margin-top: 24px;
   }
 
+  .container.contact {
+    .column {
+      text-align: center;
+    }
+    .button {
+      .fa-envelope {
+        color: $sunny;
+      }
+      color: $sunny;
+      background-color: $moonligh-shadow;
+      border-color: $sunny;
+      padding-left: 25px;
+      padding-right: 25px;
+      &:hover {
+        color: $moonligh-shadow;
+        background-color: $sunny;
+        .fa-envelope {
+          color: $moonligh-shadow;
+        }
+      }
+    }
+  }
   .navbar {
     .navbar-burger {
       color: $moonligh-shadow;
@@ -52,7 +93,7 @@ body {
     }
 
     .bego{
-      font-family: 'Fredericka the Great', cursive;
+      font-family: 'Montserrat', sans-serif;
     }
     background-color: $sunny;
     .navbar-item, .navbar-burger.is-active {
@@ -77,6 +118,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 9000px) {
+  .icons {
+    overflow-x: scroll;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     .hero.is-info {
@@ -86,6 +133,9 @@ body {
       .subtitle {
         font-size: 50px;
       }
+    }
+    .icons {
+      overflow-x: scroll;
     }
   }
 }
@@ -99,6 +149,9 @@ body {
       .subtitle {
         font-size: 40px;
       }
+    }
+    .icons {
+      overflow-x: scroll;
     }
   }
 }

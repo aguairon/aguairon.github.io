@@ -2,12 +2,12 @@ body {
   margin: 0;
   background: #EEEEEE;
   color: #313030;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   font-size: 18px; }
   body .title, body .subtitle {
     color: #980f0f;
-    font-family: 'Fredericka the Great', cursive; }
+    font-family: 'Montserrat', sans-serif; }
   body .hero.is-info {
     background: #EEEEEE; }
     body .hero.is-info .title, body .hero.is-info .subtitle {
@@ -16,10 +16,39 @@ body {
       color: #980f0f; }
     body .hero.is-info .subtitle {
       font-size: 70px; }
-  body .container .title {
-    padding-top: 20px; }
+  body .container {
+    max-width: 800px; }
+    body .container .title {
+      padding-top: 20px; }
+    body .container .icons {
+      padding: 2px;
+      display: flex;
+      margin-top: 10px;
+      font-size: 11px;
+      text-align: center; }
+      body .container .icons img {
+        padding: 15px; }
+      body .container .icons .icon {
+        width: 60px; }
+  body .container.name {
+    max-width: 960px; }
   body .container.work {
     margin-top: 24px; }
+  body .container.contact .column {
+    text-align: center; }
+  body .container.contact .button {
+    color: #980f0f;
+    background-color: #EEEEEE;
+    border-color: #980f0f;
+    padding-left: 25px;
+    padding-right: 25px; }
+    body .container.contact .button .fa-envelope {
+      color: #980f0f; }
+    body .container.contact .button:hover {
+      color: #EEEEEE;
+      background-color: #980f0f; }
+      body .container.contact .button:hover .fa-envelope {
+        color: #EEEEEE; }
   body .navbar {
     background-color: #980f0f; }
     body .navbar .navbar-burger {
@@ -31,7 +60,7 @@ body {
         color: #980f0f;
         background-color: #EEEEEE; }
     body .navbar .bego {
-      font-family: 'Fredericka the Great', cursive; }
+      font-family: 'Montserrat', sans-serif; }
     body .navbar .navbar-item, body .navbar .navbar-burger.is-active {
       color: #EEEEEE; }
     body .navbar .navbar-menu {
@@ -42,15 +71,22 @@ body {
 @media only screen and (max-width: 1087px) {
   .navbar-menu {
     background-color: #980f0f; } }
+@media only screen and (max-width: 9000px) {
+  .icons {
+    overflow-x: scroll; } }
 @media only screen and (max-width: 600px) {
   body .hero.is-info .title {
     font-size: 70px; }
   body .hero.is-info .subtitle {
-    font-size: 50px; } }
+    font-size: 50px; }
+  body .icons {
+    overflow-x: scroll; } }
 @media only screen and (max-width: 500px) {
   body .hero.is-info .title {
     font-size: 60px; }
   body .hero.is-info .subtitle {
-    font-size: 40px; } }
+    font-size: 40px; }
+  body .icons {
+    overflow-x: scroll; } }
 
 /*# sourceMappingURL=style.css.map */
