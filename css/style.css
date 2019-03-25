@@ -36,18 +36,18 @@ body {
     margin-top: 24px; }
   body .container.contact .column {
     text-align: center; }
-  body .container.contact .button {
+  body .button {
     color: #980f0f;
     background-color: #EEEEEE;
     border-color: #980f0f;
     padding-left: 25px;
     padding-right: 25px; }
-    body .container.contact .button .fa-envelope {
+    body .button .fa-envelope {
       color: #980f0f; }
-    body .container.contact .button:hover {
+    body .button:hover {
       color: #EEEEEE;
       background-color: #980f0f; }
-      body .container.contact .button:hover .fa-envelope {
+      body .button:hover .fa-envelope {
         color: #EEEEEE; }
   body .navbar {
     background-color: #980f0f; }

@@ -60,24 +60,26 @@ body {
     .column {
       text-align: center;
     }
-    .button {
-      .fa-envelope {
-        color: $sunny;
-      }
+  }
+
+  .button {
+    .fa-envelope {
       color: $sunny;
-      background-color: $moonligh-shadow;
-      border-color: $sunny;
-      padding-left: 25px;
-      padding-right: 25px;
-      &:hover {
+    }
+    color: $sunny;
+    background-color: $moonligh-shadow;
+    border-color: $sunny;
+    padding-left: 25px;
+    padding-right: 25px;
+    &:hover {
+      color: $moonligh-shadow;
+      background-color: $sunny;
+      .fa-envelope {
         color: $moonligh-shadow;
-        background-color: $sunny;
-        .fa-envelope {
-          color: $moonligh-shadow;
-        }
       }
     }
   }
+
   .navbar {
     .navbar-burger {
       color: $moonligh-shadow;
