@@ -39,13 +39,12 @@ body {
   body .container.work {
     margin-top: 24px; }
   body .button {
+    margin-bottom: 4.5rem;
     color: #980f0f;
     background-color: #EEEEEE;
     border-color: #980f0f;
     padding-left: 25px;
     padding-right: 25px; }
-    body .button .fa-envelope {
-      color: #980f0f; }
     body .button:hover {
       color: #EEEEEE;
       background-color: #980f0f; }
